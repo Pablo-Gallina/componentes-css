@@ -30,6 +30,7 @@ body{
 
 .navbar .menu {
     position: absolute;
+    top: 1rem;
     width: 100%;
     height:70vh;
     display: grid;
@@ -37,7 +38,6 @@ body{
     justify-content: center;
     text-align: center;
     background-color: snow;
-    margin-top: 38em;
     transform: translateX(200%);
     transition: transform .5s;
 }
